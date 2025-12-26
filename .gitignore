@@ -1,0 +1,98 @@
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Diagnostic reports (https://nodejs.org/api/report.html) ---
+report.*.json
+
+# --- Runtime data ---
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# --- Coverage ---
+coverage
+*.lcov
+.nyc_output
+coverage-final.json
+
+# --- Dependency directories ---
+node_modules/
+jspm_packages/
+bower_components/
+
+# --- Build output ---
+dist/
+build/
+lib/
+.out/
+.out-static/
+.next/
+.nuxt/
+.output/
+.serverless/
+.vercel/
+.parcel-cache/
+.rpt2_cache/
+.esbuild/
+.cache/
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Linters / tooling caches ---
+.eslintcache
+.stylelintcache
+
+# --- Package managers ---
+.npm
+.pnpm-store
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.pnp/
+
+# --- Env files & secrets ---
+.env
+.env.*
+.env.local
+.env.*.local
+*.env.local
+
+# --- Temporary files ---
+tmp/
+temp/
+debug/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+.history/
+
+# --- Docker / Compose (local overrides) ---
+.docker/
+docker-compose.override.yml
+
+# --- Test artifacts ---
+junit.xml
+playwright-report/
+test-results/
+cypress/videos/
+cypress/screenshots/
